@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Start of the head-->
+<head>
+    <title>Naeem-Amiri Portfolio</title>
+    <meta charset="utf-8">
+    <style>
+        {
+            box-sizing:border-box;
+        }
+        body {
+            background-image: url(background.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+/* Style the header */
+header {
+  background-color: #2b2f8944;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgba(143, 67, 67, 0.491);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<!--end of head-->
+
+<!--start of body-->
+<body>
+
+<h2>Mo.Naeem, Amiri</h2>
+<p>Logistics is my profession and I progressed from entry level to the analyst level. My goal is to use my skills to help your
+company do its work more quickly, accurately, and profitably. I managed the warehouse, solved problematic issues of
+warehousing and Supply Chain Management using coordination, planning, and modern logistical technologies and
+software. My degree in Administration and Policy, logistics knowledge and expert in COREIMS allow me to do more
+creative and flexible jobs for your company.</p>
+
+<header>
+  <h2>Home</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">My Projects</a></li>
+      <br>
+      <li><a href="#">Work-Experiance</a></li>
+      <br>
+      <li><a href="#">Hire me Form</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Summary</h1>
+    Logistics is my profession and I progressed from entry level to the analyst level. My goal is to use my skills to help your
+    company do its work more quickly, accurately, and profitably. I managed the warehouse, solved problematic issues of
+    warehousing and Supply Chain Management using coordination, planning, and modern logistical technologies and
+    software. My degree in Administration and Policy, logistics knowledge and expert in COREIMS allow me to do more
+    creative and flexible jobs for your company.
+  </article>
+</section>
+
+<footer>
+  <p style="color:coral;" font-size="50px">Contact me</p>
+  <table style="width: 100%;">
+  <tr>
+    <td><a href="mailto:naeemamiri24@gmail.com">Send me email</a></td>
+    <td>Phone:7576363555</td>
+    <td><a href="https://www.google.com/maps/place/305+Stepney+Ln,+Virginia+Beach,+VA+23452/@36.8440988,-76.1176443,17z/data=!3m1!4b1!4m6!3m5!1s0x89ba951382351039:0xbee880c7cf561d0!8m2!3d36.8440988!4d-76.1150694!16s%2Fg%2F11crqyfs31?entry=ttu">Address</a></td>
+  </tr></table>
+</footer>
+
+</body>
+</html>
